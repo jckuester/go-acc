@@ -1,0 +1,11 @@
+builds:
+  - binary: go-acc
+    goos:
+      - darwin
+      - linux
+      - freebsd
+    goarch:
+      - amd64
+      - 386
+    env:
+      - CGO_ENABLED=0
